@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Old Standard TT';
+    src: url('../fonts/OldStandardTT-Regular.woff2') format('woff2'),
+    url('../fonts/OldStandardTT-Regular.woff') format('woff'),
+    url('../fonts/OldStandardTT-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Old Standard TT', serif;
+    background: #181511;
+}
+
+img {
+    display: inline-block;
+}
+
+.container {
+    width: 1280px;
+    margin:  0 auto;
+    padding: 0 20px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/* HEADER */
+
+.header {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-item + .header-item {
+    margin-left: 40px;
+}
+
+.header-link {
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #ACA592;
+}
+
+.header-link:hover {
+    opacity: 0.7;
+}
+
+.header-link:active {
+    opacity: 0.4;
+}
+
+.header-link-active {
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFAE2B;
+}
+
+.header-link-active-second {
+    font-size: 11px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFAE2B;
+}
+
+.site-btn {
+    text-decoration: none;
+    padding: 15px 25px;
+    border: 1px solid #FFAE2B;
+    font-size: 11px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFAE2B;
+}
+
+.site-btn:hover {
+    opacity: 0.8;
+}
+
+.site-btn:active {
+    opacity: 0.4;
+}
+
+/* HERO */
+
+.hero {
+
+    background-repeat: no-repeat;
+}
+
+.hero-container {
+    width: 1480px;
+    padding: 140px 120px;
+    background-image: url(../images/woman.png);
+}
+
+.hero-desc {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFAE2B;
+}
+
+.hero-heading {
+    width: 869px;
+    margin: 0;
+    margin-left: 166px;
+    margin-bottom: 35px;
+    font-size: 70px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.site-btn-active {
+    margin-left: 529px;
+    background: #FFAE2B;
+    font-size: 11px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181511;
+}
