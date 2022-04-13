@@ -210,9 +210,6 @@ img {
     opacity: 0.4;
 }
 
-.template-img {
-}
-
 .template-desc {
     margin: 0;
     font-size: 13px;
@@ -220,4 +217,59 @@ img {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+/* PYTHON */
+
+.python {
+    margin-bottom: 120px;
+    background-image: url(../images/python.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: calc(50% + 10px);
+    height: 573px;
+}
+
+/* SERVICES */
+
+.services {
+    padding-bottom: 120px;
+}
+
+.services-list {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.services-item {
+    width: 400px;
+    border: 1px solid #4B4136;
+    padding: 61px;
+}
+
+.services-item:hover {
+    opacity: 0.8;
+}
+
+.services-item:active {
+    opacity: 0.4;
+}
+
+.services-desc {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 29px;
+    line-height: 40px;
+    color: #FFAE2B;
+}
+
+.services-desc-small {
+    margin: 0;
+    font-size: 15px;
+    line-height: 26px;
+    color: #ACA592;
 }
